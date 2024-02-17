@@ -18,6 +18,6 @@ export async function searchMovies ({ search }) {
       poster: movie.Poster
     }))
   } catch (error) {
-    throw new Error('Errro en la busqueda')
+    throw new Error('Error en la busqueda')
   }
 }
